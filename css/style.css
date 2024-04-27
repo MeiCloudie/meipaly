@@ -1,17 +1,106 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* header */
+header {
+  padding: 20px 0;
+  background-color: black;
+}
+
+header .header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header_content nav ul li {
+  display: inline;
+  margin-right: 50px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+header .header_content a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+header .header_logo {
+  font-size: 32px;
+}
+
+header nav li .active {
+  color: red;
+}
+
+header nav li a:hover {
+  color: red;
+}
+
 /* demo */
+.demo5 {
+  background-color: black;
+  width: 100%;
+}
+
 .flex_container {
   background-color: black;
   height: 100vh;
+  /* height: 200px; */
+  /* khi sử dụng flex sẽ có 2 trục là trục chính (mặc định ban đầu là trục ngang) và trục phụ (mặc định ban đầu là trục dọc) */
+  display: flex;
+  /* thuộc tính điều chỉnh các phần tử dựa trên trục chính  */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+
+  /* thuộc tính điều chỉnh các phần tử theo chiều dọc (trục phụ) */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: ; */
+
+  /* thay đổi trục chính của flex box  */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
 }
 
 .flex_item1 {
   background-color: red;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .flex_item2 {
   background-color: blue;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.flex_item3 {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+}
+
+.flex_item4 {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
 }
