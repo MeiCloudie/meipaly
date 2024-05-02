@@ -15,8 +15,12 @@
 
 /* header */
 header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   padding: 20px 0;
-  background-color: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.295);
 }
 
 header .header_content {
@@ -48,6 +52,49 @@ header nav li .active {
 
 header nav li a:hover {
   color: red;
+}
+
+/* banner */
+.banner {
+  background-image: url(../img/home_slider.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* cách dùng flex box để canh giữa nội dung theo chiều ngang và dọc */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.banner .banner_subTitle {
+  font-size: 25px;
+}
+
+.banner h1 {
+  font-size: 75px;
+  line-height: 85px;
+}
+
+.banner button {
+  padding: 15px 25px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #e62b4a;
+  border: 2px solid #e62b4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.banner button:hover {
+  background-color: #af2238;
 }
 
 /* demo */
