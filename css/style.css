@@ -407,6 +407,37 @@ header nav li a:hover {
   border-color: #e62b4a;
 }
 
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+}
+
+footer .footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer_buttons a {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #333333;
+  font-size: 16px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+footer .footer_buttons a:hover {
+  background-color: #e62b4a;
+}
+
 /* demo */
 .demo5 {
   background-color: black;
