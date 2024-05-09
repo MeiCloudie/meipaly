@@ -345,6 +345,25 @@ header nav li a:hover {
 }
 
 /* contact */
+.contact {
+  margin: 100px 0;
+}
+
+.contact .contact_title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.contact .contact_title h2 {
+  font-size: 50px;
+  font-weight: 400;
+  padding: 5px 0 20px 0;
+}
+
+.contact .contact_title p {
+  font-size: 16px;
+  color: #888888;
+}
 
 /* demo */
 .demo5 {
