@@ -223,8 +223,12 @@ header nav li a:hover {
   grid-row: 3 / span 2;
 }
 
-.blog .blog_content .blog_item {
+.blog .blog_content .blog_item:hover {
   position: relative;
+}
+
+.blog .blog_content .blog_item:hover .overlay {
+  opacity: 1;
 }
 
 .blog .blog_item .overlay {
@@ -238,10 +242,13 @@ header nav li a:hover {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+  opacity: 0;
+  transition: all 1s;
 }
 
 .blog .blog_item .overlay .overlay_icon {
   text-align: right;
+  font-size: 20px;
 }
 
 .blog .blog_item .overlay .overlay_icon i {
