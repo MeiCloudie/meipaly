@@ -178,6 +178,10 @@ header nav li a:hover {
 }
 
 /* blog */
+.blog {
+  margin-bottom: 100px;
+}
+
 .blog .blog_title {
   text-align: center;
   margin: 100px 0;
@@ -227,10 +231,6 @@ header nav li a:hover {
   position: relative;
 }
 
-.blog .blog_content .blog_item:hover .overlay {
-  opacity: 1;
-}
-
 .blog .blog_item .overlay {
   position: absolute;
   background-color: #e62b4a8a;
@@ -243,17 +243,40 @@ header nav li a:hover {
   justify-content: space-between;
   padding: 20px;
   opacity: 0;
-  transition: all 1s;
+  transition: all 0.5s;
+}
+
+.blog .blog_content .blog_item:hover .overlay {
+  opacity: 1;
 }
 
 .blog .blog_item .overlay .overlay_icon {
   text-align: right;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .blog .blog_item .overlay .overlay_icon i {
-  padding: 15px;
+  padding: 10px;
   background-color: white;
+  transform: translateY(30px);
+  transition: all 0.7s;
+}
+
+.blog .blog_item:hover .overlay_icon i {
+  transform: translateY(0px);
+}
+
+.blog .blog_item .overlay .overlay_icon a {
+  color: black;
+}
+
+.blog .blog_item .overlay .overlay_text {
+  transform: translateY(30px);
+  transition: all 0.7s;
+}
+
+.blog .blog_item:hover .overlay_text {
+  transform: translateY(0px);
 }
 
 .blog .blog_item .overlay .overlay_text span {
