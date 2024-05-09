@@ -310,6 +310,17 @@ header nav li a:hover {
   color: #888888;
 }
 
+/* digital */
+.digital {
+  /* background-color: black; */
+  background-image: url(../img/bussiness_img_1.jpg);
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 /* demo */
 .demo5 {
   background-color: black;
