@@ -227,8 +227,9 @@ header nav li a:hover {
   grid-row: 3 / span 2;
 }
 
-.blog .blog_content .blog_item:hover {
+.blog .blog_content .blog_item {
   position: relative;
+  overflow: hidden;
 }
 
 .blog .blog_item .overlay {
