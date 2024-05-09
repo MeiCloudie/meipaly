@@ -288,6 +288,28 @@ header nav li a:hover {
   color: white;
 }
 
+/* number  */
+.number {
+  padding: 100px 0;
+  background-color: black;
+  color: white;
+}
+
+.number .number_content {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.number .number_content p {
+  font-size: 60px;
+}
+
+.number .number_content span {
+  font-size: 20px;
+  color: #888888;
+}
+
 /* demo */
 .demo5 {
   background-color: black;
