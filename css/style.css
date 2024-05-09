@@ -365,6 +365,48 @@ header nav li a:hover {
   color: #888888;
 }
 
+.contact .contact_content {
+  display: flex;
+  gap: 10px;
+}
+
+.contact .contact_content .content_left {
+  width: 60%;
+}
+
+.contact .contact_content .content_right {
+  width: 40%;
+}
+
+.contact .contact_content .content_right form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.contact .contact_content .content_right form input,
+.contact .contact_content .content_right form textarea {
+  font-size: 15px;
+  padding: 1em;
+  border: 1px solid #888888;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.contact .contact_content .content_right form button {
+  padding: 20px 30px;
+  color: #ffffff;
+  border: 1px solid black;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.contact .contact_content .content_right form button:hover {
+  background-color: #e62b4a;
+  border-color: #e62b4a;
+}
+
 /* demo */
 .demo5 {
   background-color: black;
