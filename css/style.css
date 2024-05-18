@@ -101,6 +101,11 @@ header nav li a:hover {
   background-color: #af2238;
 }
 
+.banner_icon i {
+  font-size: 30px;
+  padding: 5px 0;
+}
+
 /* service */
 .service {
   background-color: black;
